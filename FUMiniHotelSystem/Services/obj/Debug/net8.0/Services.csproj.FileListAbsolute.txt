@@ -1,0 +1,38 @@
+D:\C#\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\C#\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\C#\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\C#\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\C#\FUMiniHotelSystem\Services\bin\Debug\net8.0\Services.deps.json
+D:\C#\FUMiniHotelSystem\Services\bin\Debug\net8.0\Services.dll
+D:\C#\FUMiniHotelSystem\Services\bin\Debug\net8.0\Services.pdb
+D:\C#\FUMiniHotelSystem\Services\bin\Debug\net8.0\BusinessOjects.dll
+D:\C#\FUMiniHotelSystem\Services\bin\Debug\net8.0\DataAccessObjects.dll
+D:\C#\FUMiniHotelSystem\Services\bin\Debug\net8.0\Repositories.dll
+D:\C#\FUMiniHotelSystem\Services\bin\Debug\net8.0\BusinessOjects.pdb
+D:\C#\FUMiniHotelSystem\Services\bin\Debug\net8.0\Repositories.pdb
+D:\C#\FUMiniHotelSystem\Services\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\C#\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\C#\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.dll
+D:\C#\FUMiniHotelSystem\Services\obj\Debug\net8.0\refint\Services.dll
+D:\C#\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.pdb
+D:\C#\FUMiniHotelSystem\Services\obj\Debug\net8.0\ref\Services.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\bin\Debug\net8.0\Services.deps.json
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\bin\Debug\net8.0\Services.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\bin\Debug\net8.0\Services.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\bin\Debug\net8.0\BusinessOjects.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\bin\Debug\net8.0\DataAccessObjects.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\bin\Debug\net8.0\Repositories.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\bin\Debug\net8.0\BusinessOjects.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\bin\Debug\net8.0\Repositories.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\obj\Debug\net8.0\refint\Services.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\obj\Debug\net8.0\Services.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\Services\obj\Debug\net8.0\ref\Services.dll

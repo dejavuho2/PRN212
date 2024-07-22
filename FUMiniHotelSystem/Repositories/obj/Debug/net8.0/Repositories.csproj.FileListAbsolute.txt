@@ -1,0 +1,34 @@
+D:\C#\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\C#\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\C#\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\C#\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\C#\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\C#\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\C#\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\C#\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\BusinessOjects.dll
+D:\C#\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\DataAccessObjects.dll
+D:\C#\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\BusinessOjects.pdb
+D:\C#\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\C#\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\C#\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\C#\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\C#\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\C#\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\BusinessOjects.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\DataAccessObjects.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\BusinessOjects.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll

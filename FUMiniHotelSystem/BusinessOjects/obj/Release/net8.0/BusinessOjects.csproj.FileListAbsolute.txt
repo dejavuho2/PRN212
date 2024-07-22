@@ -1,0 +1,14 @@
+D:\C#\FUMiniHotelSystem\BusinessOjects\bin\Release\net8.0\BusinessOjects.deps.json
+D:\C#\FUMiniHotelSystem\BusinessOjects\bin\Release\net8.0\BusinessOjects.runtimeconfig.json
+D:\C#\FUMiniHotelSystem\BusinessOjects\bin\Release\net8.0\BusinessOjects.dll
+D:\C#\FUMiniHotelSystem\BusinessOjects\bin\Release\net8.0\BusinessOjects.pdb
+D:\C#\FUMiniHotelSystem\BusinessOjects\obj\Release\net8.0\BusinessOjects.csproj.AssemblyReference.cache
+D:\C#\FUMiniHotelSystem\BusinessOjects\obj\Release\net8.0\BusinessOjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\FUMiniHotelSystem\BusinessOjects\obj\Release\net8.0\BusinessOjects.AssemblyInfoInputs.cache
+D:\C#\FUMiniHotelSystem\BusinessOjects\obj\Release\net8.0\BusinessOjects.AssemblyInfo.cs
+D:\C#\FUMiniHotelSystem\BusinessOjects\obj\Release\net8.0\BusinessOjects.csproj.CoreCompileInputs.cache
+D:\C#\FUMiniHotelSystem\BusinessOjects\obj\Release\net8.0\BusinessOjects.dll
+D:\C#\FUMiniHotelSystem\BusinessOjects\obj\Release\net8.0\refint\BusinessOjects.dll
+D:\C#\FUMiniHotelSystem\BusinessOjects\obj\Release\net8.0\BusinessOjects.pdb
+D:\C#\FUMiniHotelSystem\BusinessOjects\obj\Release\net8.0\BusinessOjects.genruntimeconfig.cache
+D:\C#\FUMiniHotelSystem\BusinessOjects\obj\Release\net8.0\ref\BusinessOjects.dll

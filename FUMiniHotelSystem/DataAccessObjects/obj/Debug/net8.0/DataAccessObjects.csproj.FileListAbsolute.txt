@@ -1,0 +1,30 @@
+D:\C#\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.AssemblyReference.cache
+D:\C#\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfoInputs.cache
+D:\C#\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfo.cs
+D:\C#\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+D:\C#\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.deps.json
+D:\C#\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.dll
+D:\C#\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\C#\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\BusinessOjects.dll
+D:\C#\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\BusinessOjects.pdb
+D:\C#\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAcce.79975846.Up2Date
+D:\C#\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.dll
+D:\C#\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\refint\DataAccessObjects.dll
+D:\C#\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.pdb
+D:\C#\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\ref\DataAccessObjects.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.deps.json
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\BusinessOjects.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\BusinessOjects.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.AssemblyReference.cache
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfoInputs.cache
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfo.cs
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAcce.79975846.Up2Date
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\refint\DataAccessObjects.dll
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.pdb
+D:\C#\Assignment 2\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\ref\DataAccessObjects.dll
