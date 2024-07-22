@@ -1,0 +1,17 @@
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.deps.json
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.runtimeconfig.json
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.dll
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.pdb
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\BusinessOjects.dll
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\bin\Debug\net8.0\BusinessOjects.pdb
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.AssemblyReference.cache
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfoInputs.cache
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfo.cs
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAcce.79975846.Up2Date
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.dll
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\refint\DataAccessObjects.dll
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.pdb
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.genruntimeconfig.cache
+C:\Users\DAO\Downloads\Ass2\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\DataAccessObjects\obj\Debug\net8.0\ref\DataAccessObjects.dll
