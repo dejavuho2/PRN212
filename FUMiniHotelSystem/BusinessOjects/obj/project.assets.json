@@ -4364,8 +4364,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.6",
-      "Microsoft.EntityFrameworkCore.design >= 8.0.6",
       "Microsoft.Extensions.Configuration >= 8.0.0",
       "Microsoft.Extensions.Configuration.Json >= 8.0.0"
     ]
@@ -4376,11 +4376,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj",
+      "projectUniqueName": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj",
       "projectName": "BusinessOjects",
-      "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj",
+      "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj",
       "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\obj\\",
+      "outputPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4414,13 +4414,13 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.6, )"
           },
-          "Microsoft.EntityFrameworkCore.design": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[8.0.6, )"
           },

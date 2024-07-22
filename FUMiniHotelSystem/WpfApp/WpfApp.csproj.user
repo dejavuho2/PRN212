@@ -7,18 +7,72 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AdminBookingReservationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BookingReservationDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BookingReservationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CreateReportWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RoomBookingWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RoomDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RoomInformationManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AdminBookingReservationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BookingReservationDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BookingReservationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="CreateReportWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="CustomerDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RoomBookingWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RoomDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RoomInformationManagement.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

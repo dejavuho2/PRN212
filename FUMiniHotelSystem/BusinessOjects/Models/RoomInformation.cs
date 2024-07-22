@@ -22,4 +22,6 @@ public partial class RoomInformation
     public virtual ICollection<BookingDetail> BookingDetails { get; set; } = new List<BookingDetail>();
 
     public virtual RoomType RoomType { get; set; } = null!;
+
+    public string? RoomTypeName => RoomType?.RoomTypeName;
 }

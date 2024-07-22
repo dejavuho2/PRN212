@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp.BookingReservationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="BookingReservationWindow" Height="600" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#0099FF" Offset="0"/>
+                <GradientStop Color="#FF347BDA" Offset="0.794"/>
+                <GradientStop Color="#FF60B1E7" Offset="1"/>
+                <GradientStop Color="#FF596FDD" Offset="0.309"/>
+                <GradientStop Color="#FF472FDE" Offset="0.484"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="label" Content="Booking History" Grid.Column="0" Grid.Row="0" FontSize="36" HorizontalAlignment="Center"/>
+
+        <DataGrid x:Name="dgBookingHistory" Margin="10" Grid.Column="0" Grid.Row="1" AutoGenerateColumns="False" CanUserAddRows="False" SelectionChanged="dgBookingHistory_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Reservation ID" Binding="{Binding BookingReservationId}" Width="*"/>
+                <DataGridTextColumn Header="Booking Date" Binding="{Binding BookingDate, StringFormat={}{0:dd/MM/yyyy}}" Width="*"/>
+                <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice, StringFormat={}{0:C}}" Width="*"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding BookingStatus}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Label x:Name="detailsLabel" Content="Booking Details" Grid.Column="0" Grid.Row="2" FontSize="24" HorizontalAlignment="Center" Margin="0,10"/>
+
+        <DataGrid x:Name="dgBookingDetails" Margin="10" Grid.Column="0" Grid.Row="2" AutoGenerateColumns="False" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Room Number" Binding="{Binding Room.RoomNumber}" Width="*"/>
+                <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate, StringFormat={}{0:dd/MM/yyyy}}" Width="*"/>
+                <DataGridTextColumn Header="End Date" Binding="{Binding EndDate, StringFormat={}{0:dd/MM/yyyy}}" Width="*"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding ActualPrice, StringFormat={}{0:C}}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StackPanel Grid.Column="0" Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,10">
+            <Button x:Name="btnUserProfile" Content="User Profile" Width="150" Height="50" Background="#FF1B71A1" Foreground="White" Margin="10,0,10,0" Click="btnUserProfile_Click"/>
+            <Button x:Name="btnClose" Content="Close" Width="150" Height="50" Background="#FFEF8F18" Foreground="White" Margin="10,0,10,0" Click="btnClose_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

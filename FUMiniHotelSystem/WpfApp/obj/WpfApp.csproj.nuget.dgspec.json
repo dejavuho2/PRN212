@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\WpfApp\\WpfApp.csproj": {}
+    "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\WpfApp\\WpfApp.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj": {
+    "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj",
+        "projectUniqueName": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj",
         "projectName": "BusinessOjects",
-        "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj",
+        "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj",
         "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\obj\\",
+        "outputPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,13 +45,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
             },
-            "Microsoft.EntityFrameworkCore.design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.6, )"
             },
@@ -84,14 +84,14 @@
         }
       }
     },
-    "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\DataAccessObjects\\DataAccessObjects.csproj": {
+    "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\DataAccessObjects\\DataAccessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectUniqueName": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\DataAccessObjects\\DataAccessObjects.csproj",
         "projectName": "DataAccessObjects",
-        "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\DataAccessObjects\\DataAccessObjects.csproj",
         "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\DataAccessObjects\\obj\\",
+        "outputPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\DataAccessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,8 +108,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj": {
-                "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj"
+              "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj": {
+                "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj"
               }
             }
           }
@@ -128,6 +128,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -148,14 +164,14 @@
         }
       }
     },
-    "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj",
+        "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Repositories\\obj\\",
+        "outputPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,11 +188,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj": {
-                "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj"
+              "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj": {
+                "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj"
               },
-              "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\DataAccessObjects\\DataAccessObjects.csproj": {
-                "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\DataAccessObjects\\DataAccessObjects.csproj"
+              "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\DataAccessObjects\\DataAccessObjects.csproj": {
+                "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\DataAccessObjects\\DataAccessObjects.csproj"
               }
             }
           }
@@ -195,6 +211,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -215,14 +247,14 @@
         }
       }
     },
-    "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Services\\Services.csproj": {
+    "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Services\\obj\\",
+        "outputPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -239,11 +271,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj": {
-                "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj"
+              "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj": {
+                "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj"
               },
-              "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj": {
-                "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj"
+              "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -262,6 +294,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -282,14 +330,14 @@
         }
       }
     },
-    "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\WpfApp\\WpfApp.csproj": {
+    "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\WpfApp\\WpfApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\WpfApp\\WpfApp.csproj",
+        "projectUniqueName": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\WpfApp\\WpfApp.csproj",
         "projectName": "WpfApp",
-        "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\WpfApp\\WpfApp.csproj",
+        "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\WpfApp\\WpfApp.csproj",
         "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\WpfApp\\obj\\",
+        "outputPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\WpfApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -306,14 +354,14 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj": {
-                "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj"
+              "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj": {
+                "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\BusinessOjects\\BusinessOjects.csproj"
               },
-              "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj": {
-                "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Repositories\\Repositories.csproj"
+              "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Repositories\\Repositories.csproj"
               },
-              "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Services\\Services.csproj": {
-                "projectPath": "D:\\C#\\Assignment 2\\FUMiniHotelSystem\\Services\\Services.csproj"
+              "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\thanh\\Downloads\\FUMiniHotelSystem (4)\\FUMiniHotelSystem\\FUMiniHotelSystem\\FUMiniHotelSystem\\Services\\Services.csproj"
               }
             }
           }
@@ -332,6 +380,22 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

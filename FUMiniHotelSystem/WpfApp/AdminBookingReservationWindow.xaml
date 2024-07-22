@@ -1,0 +1,70 @@
+﻿<Window x:Class="WpfApp.AdminBookingReservationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="AdminBookingReservationWindow" Height="800" Width="900">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#0099FF" Offset="0"/>
+                <GradientStop Color="#FF347BDA" Offset="0.794"/>
+                <GradientStop Color="#FF60B1E7" Offset="1"/>
+                <GradientStop Color="#FF596FDD" Offset="0.309"/>
+                <GradientStop Color="#FF472FDE" Offset="0.484"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Label for Title -->
+        <Label x:Name="label" Content="Booking Reservation Management" Grid.Row="0" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20"/>
+
+        <!-- StackPanel for buttons -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20">
+            <Button x:Name="btnManageCustomerInfo" Content="Manage Customer Info" Width="200" Height="50" Margin="10,0" Click="btnManageCustomerInfo_Click"/>
+            <Button x:Name="btnManageRoomInfo" Content="Manage Room Info" Width="200" Height="50" Margin="10,0" Click="btnManageRoomInfo_Click"/>
+            <Button x:Name="btnCreateReport" Content="Create Report" Width="200" Height="50" Margin="10,0" Click="btnCreateReport_Click"/>
+            <Button x:Name="btnCreateBookingReservation" Content="Create Booking" Width="200" Height="50" Margin="10,0" Click="btnCreateBookingReservation_Click"/>
+        </StackPanel>
+
+        <!-- DataGrid for Booking Reservations -->
+        <DataGrid x:Name="dgBookingReservations" Grid.Row="2" AutoGenerateColumns="False" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="10"
+                  SelectionChanged="dgBookingReservations_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Reservation ID" Binding="{Binding BookingReservationId}" Width="100"/>
+                <DataGridTextColumn Header="Booking Date" Binding="{Binding BookingDate}" Width="100"/>
+                <DataGridTextColumn Header="Total Price" Binding="{Binding TotalPrice}" Width="100"/>
+                <DataGridTextColumn Header="Customer ID" Binding="{Binding CustomerId}" Width="100"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding BookingStatus}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- DataGrid for Booking Details -->
+        <DataGrid x:Name="dgBookingDetails" Grid.Row="2" AutoGenerateColumns="False" VerticalAlignment="Top" Margin="20,178,0,0"
+                  ItemsSource="{Binding BookingDetails}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Reservation ID" Binding="{Binding BookingReservationId}" Width="100"/>
+                <DataGridTextColumn Header="Room ID" Binding="{Binding RoomId}" Width="100"/>
+                <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate}" Width="100"/>
+                <DataGridTextColumn Header="End Date" Binding="{Binding EndDate}" Width="100"/>
+                <DataGridTextColumn Header="Actual Price" Binding="{Binding ActualPrice}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- StackPanel for CRUD buttons -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20">
+            <Button x:Name="btnAdd" Content="Add" Width="150" Height="50" Background="#FF0099FF" BorderBrush="White" Foreground="White" Margin="10,0,10,0" Click="btnAdd_Click"/>
+            <Button x:Name="btnEdit" Content="Edit" Width="150" Height="50" Background="#FF1B7140" Foreground="White" Margin="10,0,10,0" Click="btnEdit_Click"/>
+            <Button x:Name="btnDelete" Content="Delete" Width="150" Height="50" Background="#FFA2AA3D" Foreground="White" Margin="10,0,10,0" Click="btnDelete_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

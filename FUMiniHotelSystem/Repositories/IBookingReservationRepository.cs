@@ -19,6 +19,8 @@ namespace Repositories
 
         BookingReservation? GetBookingReservationById(int id);
 
-        List<BookingReservation>? GetBookingReservationsByTime(DateTime startDate, DateTime endDate); 
+        List<BookingReservation>? GetBookingReservationsByTime(DateTime startDate, DateTime endDate);
+
+        List<BookingDetail> GetBookingDetailsByReservationId(int reservationId);
     }
 }

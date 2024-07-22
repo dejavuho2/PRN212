@@ -12,5 +12,6 @@ namespace Services
         List<BookingReservation> GetBookingReservationList();
         List<BookingReservation>? GetBookingReservationListByTime(DateTime startDate, DateTime endDate);
         BookingReservation? GetBookingReservationById(int id);
+        List<BookingDetail> GetBookingDetailsByReservationId(int reservationId);
     }
 }

@@ -18,4 +18,6 @@ public partial class BookingDetail
     public virtual BookingReservation BookingReservation { get; set; } = null!;
 
     public virtual RoomInformation Room { get; set; } = null!;
+
+    public string? RoomName => Room?.RoomNumber;
 }

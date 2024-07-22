@@ -42,7 +42,10 @@ namespace WpfApp
             {
                 MessageBox.Show(ex.Message, "Error on loading room list");
             }
-           
+            finally
+            {
+                //ResetInput();
+            }
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -70,11 +73,22 @@ namespace WpfApp
             }
         }
 
-        private void dgData_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            
-            
-        }
+        //private void dgData_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //{
+        //    if (dgData.SelectedItem == null)
+        //        return;
+
+        //    if (dgData.SelectedItem is RoomInformation selectedRoom)
+        //    {
+        //        txtRoomID.Text = selectedRoom.RoomId.ToString();
+        //        txtRoomNumber.Text = selectedRoom.RoomNumber ?? "";
+        //        txtRoomDetailDescription.Text = selectedRoom.RoomDetailDescription ?? "";
+        //        txtRoomMaxCapacity.Text = selectedRoom.RoomMaxCapacity.ToString();
+        //        txtRoomTypeID.Text = selectedRoom.RoomTypeId.ToString();
+        //        cboRoomStatus.SelectedIndex = selectedRoom.RoomStatus == 1 ? 0 : 1;
+        //        txtRoomPricePerDay.Text = selectedRoom.RoomPricePerDay.ToString();
+        //    }
+        //}
 
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
@@ -140,7 +154,16 @@ namespace WpfApp
 
 
 
-
+        //private void ResetInput()
+        //{
+        //    txtRoomID.Text = "";
+        //    txtRoomNumber.Text = "";
+        //    txtRoomDetailDescription.Text = "";
+        //    txtRoomMaxCapacity.Text = "";
+        //    txtRoomTypeID.Text = "";
+        //    cboRoomStatus.SelectedIndex = -1;
+        //    txtRoomPricePerDay.Text = "";
+        //}
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
             Close();

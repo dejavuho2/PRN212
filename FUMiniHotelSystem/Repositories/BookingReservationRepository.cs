@@ -23,5 +23,10 @@ namespace Repositories
 
         public List<BookingReservation> GetBookingReservationsByTime(DateTime startDate, DateTime endDate)
              => BookingReservationDAO.GetBookingReservationsByTime(startDate, endDate);
+
+        public List<BookingDetail> GetBookingDetailsByReservationId(int reservationId)
+        {
+            return BookingReservationDAO.GetBookingDetailsByReservationId(reservationId);
+        }
     }
 }

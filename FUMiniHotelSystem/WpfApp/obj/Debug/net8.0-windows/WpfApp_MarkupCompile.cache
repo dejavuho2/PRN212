@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\C#\Assignment 2\FUMiniHotelSystem\WpfApp\obj\Debug\net8.0-windows\
+C:\Users\thanh\Downloads\FUMiniHotelSystem (4)\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\WpfApp\obj\Debug\net8.0-windows\
 WpfApp
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\C#\Assignment 2\FUMiniHotelSystem\WpfApp\App.xaml
-10-1459924102
+C:\Users\thanh\Downloads\FUMiniHotelSystem (4)\FUMiniHotelSystem\FUMiniHotelSystem\FUMiniHotelSystem\WpfApp\App.xaml
+111908596482
 
-14-562704956
-2482100859421
-AdminBookingReservationWindow.xaml;BookingReservationDialog.xaml;BookingReservationWindow.xaml;CreateReportWindow.xaml;CustomerDialog.xaml;CustomerProfile.xaml;LoginWindow.xaml;MainWindow.xaml;RoomDialog.xaml;RoomInformationManagement.xaml;
+15-656759673
+248-1745561646
+AdminBookingReservationWindow.xaml;BookingReservationDialog.xaml;BookingReservationWindow.xaml;CreateReportWindow.xaml;CustomerDialog.xaml;CustomerProfile.xaml;LoginWindow.xaml;MainWindow.xaml;RoomBookingWindow.xaml;RoomDialog.xaml;RoomInformationManagement.xaml;
 
 False
 

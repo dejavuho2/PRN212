@@ -1,0 +1,74 @@
+﻿<Window x:Class="WpfApp.CustomerProfile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="CustomerProfile" Height="800" Width="600">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#0099FF" Offset="0"/>
+                <GradientStop Color="#FF347BDA" Offset="0.794"/>
+                <GradientStop Color="#FF60B1E7" Offset="1"/>
+                <GradientStop Color="#FF596FDD" Offset="0.309"/>
+                <GradientStop Color="#FF472FDE" Offset="0.484"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="350"/>
+        </Grid.ColumnDefinitions>
+
+
+
+        <Label x:Name="label" Content="User Profile" Grid.Column="0" Grid.Row="0" FontSize="36" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
+
+        <Label x:Name="label1" Margin="2,2,2,2" Content="Customer ID" Grid.Column="0" Grid.Row="1"/>
+        <TextBox x:Name="txtCustomerID" Margin="4,4,4,4" Grid.Column="1" Grid.Row="1" Text="" TextWrapping="Wrap" IsEnabled="False"/>
+
+        <Label x:Name="label2" Margin="2,2,2,2" Content="Full Name" Grid.Column="0" Grid.Row="2"/>
+        <TextBox x:Name="txtCustomerFullName" Margin="4,4,4,4" Grid.Column="1" Grid.Row="2" Text="" TextWrapping="Wrap"/>
+
+        <Label x:Name="label3" Margin="2,2,2,2" Content="Telephone" Grid.Column="0" Grid.Row="3"/>
+        <TextBox x:Name="txtTelephone" Margin="4,4,4,4" Grid.Column="1" Grid.Row="3" Text="" TextWrapping="Wrap"/>
+
+        <Label x:Name="label4" Margin="2,2,2,2" Content="Email Address" Grid.Column="0" Grid.Row="4"/>
+        <TextBox x:Name="txtEmailAddress" Margin="4,4,4,4" Grid.Column="1" Grid.Row="4" Text="" TextWrapping="Wrap"/>
+
+        <Label x:Name="label5" Margin="2,2,2,2" Content="Birthday" Grid.Column="0" Grid.Row="5"/>
+        <DatePicker x:Name="dpCustomerBirthday" Margin="4,4,4,4" Grid.Column="1" Grid.Row="5"/>
+
+        <Label x:Name="label6" Margin="2,2,2,2" Content="Status" Grid.Column="0" Grid.Row="6"/>
+        <ComboBox x:Name="cboCustomerStatus" Margin="4,4,4,4" Grid.Column="1" Grid.Row="6">
+            <ComboBoxItem Content="Active" Tag="1"/>
+            <ComboBoxItem Content="Inactive" Tag="0"/>
+        </ComboBox>
+
+        <Label x:Name="label7" Margin="2,2,2,2" Content="Password" Grid.Column="0" Grid.Row="7"/>
+        <TextBox x:Name="pwdPassword" Margin="4,4,4,4" Grid.Column="1" Grid.Row="7"/>
+
+        <StackPanel Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="46,0,-46,0">
+            <Button x:Name="btnUpdate" Content="Update" Width="108" Height="56" Background="#FF1B7140" Foreground="White" Margin="10,0,10,0" Click="btnUpdate_Click"/>
+            <Button x:Name="btnBookingReservation" Content="Booking Reservation" Width="108" Height="56" Background="#FF1B71A1" Foreground="White" Margin="10,0,10,0" Click="btnBookingReservation_Click"/>
+            <Button x:Name="btnBookingRoom" Content="Booking Room" Width="108" Height="56" Background="#FF1B71A1" Foreground="White" Margin="10,0,10,0" Click="OpenRoomBookingWindow_Click"/>
+            <Button x:Name="btnClose" Content="Close" Width="108" Height="56" Background="#FFEF8F18" Foreground="White" Margin="10,0,10,0" Click="btnClose_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

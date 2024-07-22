@@ -1,4 +1,5 @@
 ﻿using BusinessOjects.Models;
+using DataAccessLayer;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace DataAccessObjects
             try
             {
                 using var db = new FuminiHotelManagementContext();
-                listRoomInformation = db.RoomInformations.ToList();
+                listRoomInformation = db.RoomInformations.Include(p => p.RoomType).ToList();
             }
             catch (Exception e)
             {
@@ -80,6 +81,22 @@ namespace DataAccessObjects
         {
             using var db = new FuminiHotelManagementContext();
             return db.RoomInformations.FirstOrDefault(r => r.RoomId == id);
+        }
+
+        public static int GetBookedRoomCount(int roomId)
+        {
+            return BookingDetailDAO.GetBookingDetails().Count(bd => bd.RoomId == roomId);
+        }
+
+        public static void UpdateRoomStatus(int roomId, byte status)
+        {
+            using var context = new FuminiHotelManagementContext();
+            var room = context.RoomInformations.FirstOrDefault(r => r.RoomId == roomId);
+            if (room != null)
+            {
+                room.RoomStatus = status;
+                context.SaveChanges();
+            }
         }
     }
 }

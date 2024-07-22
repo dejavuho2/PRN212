@@ -48,5 +48,9 @@ namespace Services
             return iBookingReservationRepository.GetBookingReservationsByTime(startDate, endDate);
         }
 
+        public List<BookingDetail> GetBookingDetailsByReservationId(int reservationId)
+        {
+            return iBookingReservationRepository.GetBookingDetailsByReservationId((int)reservationId);
+        }
     }
 }

@@ -29,6 +29,12 @@ namespace DataAccessObjects
             try
             {
                 using var db = new FuminiHotelManagementContext();
+
+                // Get the next booking reservation ID
+                int nextId = GetNextBookingReservationId();
+                bookingReservation.BookingReservationId = nextId;
+
+                // Add and save the booking reservation
                 db.BookingReservations.Add(bookingReservation);
                 db.SaveChanges();
             }
@@ -100,6 +106,26 @@ namespace DataAccessObjects
                 throw;
             }
             return listBookingReservation;
+        }
+
+        public static int GetNextBookingReservationId()
+        {
+            try
+            {
+                using var db = new FuminiHotelManagementContext();
+                int maxId = db.BookingDetails.Max(bd => (int?)bd.BookingReservationId) ?? 0;
+                return maxId + 1;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+        public static List<BookingDetail> GetBookingDetailsByReservationId(int reservationId)
+        {
+            using var context = new FuminiHotelManagementContext();
+            return context.BookingDetails.Where(bd => bd.BookingReservationId == reservationId).Include(br => br.Room).ToList();
         }
     }
 }

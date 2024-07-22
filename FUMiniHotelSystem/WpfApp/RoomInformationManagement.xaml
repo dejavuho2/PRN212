@@ -51,14 +51,14 @@
             </StackPanel>
 
 
-            <DataGrid x:Name="dgData" Margin="4,20,4,63" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="4" SelectionChanged="dgData_SelectionChanged"
-          AutoGenerateColumns="False" Grid.RowSpan="8">
+
+            <DataGrid x:Name="dgData" Margin="4,0,4,63" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="4" AutoGenerateColumns="False" Grid.RowSpan="6">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Room ID" Binding="{Binding RoomId}" />
                     <DataGridTextColumn Header="Room Number" Binding="{Binding RoomNumber}" />
                     <DataGridTextColumn Header="Room Detail Description" Binding="{Binding RoomDetailDescription}" />
                     <DataGridTextColumn Header="Max Capacity" Binding="{Binding RoomMaxCapacity}" />
-                    <DataGridTextColumn Header="Room Type ID" Binding="{Binding RoomTypeId}" />
+                    <DataGridTextColumn Header="Room Type Name" Binding="{Binding RoomTypeName}" />
                     <DataGridTextColumn Header="Room Status" Binding="{Binding RoomStatus}" />
                     <DataGridTextColumn Header="Price Per Day" Binding="{Binding RoomPricePerDay}" />
                 </DataGrid.Columns>
